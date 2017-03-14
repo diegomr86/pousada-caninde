@@ -2,6 +2,9 @@
   "name": "pousada-caninde",
   "version": "1.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "7.5.0"
+  },
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",

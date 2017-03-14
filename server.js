@@ -9,7 +9,7 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dir: '.', dev })
 const handle = app.getRequestHandler()
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 
 app.prepare()
   .then(_ => {
@@ -26,7 +26,7 @@ app.prepare()
     server.listen(PORT, err => {
       if (err) throw error
 
-      console.log('> App running on port 3000')
+      console.log('> App running on port ', PORT)
     })
 
     server.post('/contact', function(req, res) {
