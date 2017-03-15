@@ -69,7 +69,7 @@ export default ({ handleChange, handleSubmit, name, email, comment }) => (
                     </div>
                     <div className="item">
                         <WhatsappIcon size={20} color={'#000'} />
-                        <span>(61) 9 9968-4720 / (61) 9 8165-4082</span>
+                        <span>(61) 9 9968-4720 / (61) 9 8165-4082 / (61) 9 9994-1236</span>
                     </div>
                     <div className="item">
                         <EnvelopeIcon size={20} color={'#000'} />
@@ -90,7 +90,7 @@ export default ({ handleChange, handleSubmit, name, email, comment }) => (
                 </div>
             </div>
             <div className="box contact">
-                <h3>Contato</h3>
+                <h3>Solicite um Orçamento</h3>
                 <Input onChange={handleChange} placeholder={name} name="name"/>
                 <Input onChange={handleChange} placeholder={email} name="email"/>
                 <Input type='textarea' onChange={handleChange} placeholder={comment} name="comment" />

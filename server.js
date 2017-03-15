@@ -36,8 +36,8 @@ app.prepare()
       let transporter = nodemailer.createTransport({
           service: 'gmail',
           auth: {
-              user: 'mtxdesigngo@gmail.com',
-              pass: 'matrixeu2706'
+              user: process.env.SMTP_USER,
+              pass: process.env.SMTP_PASS
           }
       });
 
