@@ -41,7 +41,7 @@ export default ({ open, toggle }) => (
           smooth
           offset={0}
           duration={800}
-          className="link"
+          className="link pulse"
         >
           {item.title}
         </Link>
@@ -72,6 +72,7 @@ export default ({ open, toggle }) => (
       </div>
     </ClickOutside>
     <style jsx>{`
+
       .wrapper {
         color: #fff;
         text-transform: uppercase;
@@ -82,7 +83,7 @@ export default ({ open, toggle }) => (
         background: url(/static/fundo-menu.png);
         display: flex;
         align-items: center;
-        position: absolute;
+        position: fixed;
       }
       .container, .social {
         margin: 0 auto;
@@ -149,6 +150,45 @@ export default ({ open, toggle }) => (
           display: none;
         }
       }
+      @-webkit-keyframes pulse {
+        from {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+
+        50% {
+          -webkit-transform: scale3d(1.05, 1.05, 1.05);
+          transform: scale3d(1.05, 1.05, 1.05);
+        }
+
+        to {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+
+      @keyframes pulse {
+        from {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+
+        50% {
+          -webkit-transform: scale3d(1.05, 1.05, 1.05);
+          transform: scale3d(1.05, 1.05, 1.05);
+        }
+
+        to {
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+        }
+      }
+
+      .pulse {
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+      }
+
     `}</style>
   </div>
 )

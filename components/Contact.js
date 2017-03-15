@@ -151,6 +151,9 @@ export default ({ handleChange, handleSubmit, name, email, comment }) => (
                 align-items: flex-start;
                 justify-content: space-between;
             }
+            .contact buttom {
+                cursor: pointer;
+            }
             .footer {
                 padding-top: 30px;
                 margin: 0 auto;
