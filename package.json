@@ -20,7 +20,6 @@
     "sw-precache-webpack-plugin": "^0.9.0"
   },
   "scripts": {
-    "dev": "node server",
     "prestart": "next build",
     "start": "NODE_ENV=production node server"
   },
