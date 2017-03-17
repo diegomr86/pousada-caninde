@@ -84,6 +84,7 @@ export default ({ open, toggle }) => (
         display: flex;
         align-items: center;
         position: fixed;
+        z-index: 1000;
       }
       .container, .social {
         margin: 0 auto;
