@@ -20,17 +20,17 @@ export default class MyDocument extends Document {
           <meta content='!' name='fragment'/>
 
           <meta content='pt_BR' property='og:locale'/>
-          <meta content='POusada Canindé' property='og:site_name'/>
-          <meta content='POusada Canindé | Vila de São Jorge - Chapada dos Veadeiros' property='og:title'/>
-          <meta content='NO CORAÇÃO DA CHAPADA DOS VEADEIROS, SEU REFÚGIO ESTÁ DE PORTAS ABERTAS' property='og:description'/>
+          <meta content='Pousada Canindé' property='og:site_name'/>
+          <meta content='Pousada Canindé | Vila de São Jorge - Chapada dos Veadeiros' property='og:title'/>
+          <meta content='No coração da Chapada dos Veadeiros, seu refúgio está de portas abertas!' property='og:description'/>
           <meta content='http://pousadacaninde.com.br/' property='og:url'/>
           <meta content='http://pousadacaninde.com.br/static/cover.png' property='og:image'/>
           <meta content='website' property='og:type'/>
 
           <meta content='summary_large_image' name='twitter:card'/>
 
-          <meta content='POusada Canindé | Alto Paraíso - Chapada dos Veadeiros' itemprop='name'/>
-          <meta content='NO CORAÇÃO DA CHAPADA DOS VEADEIROS, SEU REFÚGIO ESTÁ DE PORTAS ABERTAS' itemprop='description'/>
+          <meta content='Pousada Canindé | Alto Paraíso - Chapada dos Veadeiros' itemprop='name'/>
+          <meta content='No coração da Chapada dos Veadeiros, seu refúgio está de portas abertas!' itemprop='description'/>
           <meta content='http://pousadacaninde.com.br/static/cover.png' property='image'/>
 
 
