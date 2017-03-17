@@ -10,6 +10,7 @@ export default ({ onClick, children }) => (
             padding: 15px 0;
             text-transform: uppercase;
             width: 104%;
+            cursor: pointer;
         }
     `}</style>
     </button>

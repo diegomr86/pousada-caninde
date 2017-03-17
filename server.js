@@ -45,7 +45,7 @@ app.prepare()
       let mailOptions = {
           from: '"Site Pousada Canindé" mtxwebart@gmail.com', // jsoner address
           replyTo: req.body.email, // list of receivers
-          to: 'diegomr86@gmail.com', // list of receivers
+          to: 'pousadacaninde@gmail.com', // list of receivers
           subject: ' ✔ Mensagem do Site Pousada Canindé - '+req.body.name, // Subject line
           // text: 'Hello world ?', // plain text body
           html: '<h3>Mensagem enviada pelo site:</h3><p>Nome: <strong>'+req.body.name+'</strong></p><p>Email: <strong>'+req.body.email+'</strong></p><p>Mensagem: <strong>'+req.body.comment+'</strong></p>' // html body
