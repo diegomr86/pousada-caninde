@@ -170,11 +170,11 @@ export default ({ handleChange, handleSubmit, name, email, comment }) => (
             }
             .box {
                 width: 45%;  
-                height: 700px; 
+                min-height: 500px; 
                 margin: auto;                 
             }
             .box.contact{
-                height: 500px; 
+                min-height: 500px; 
                 margin-top: 0;
             }
             @media(max-width: 1024px) {
@@ -189,6 +189,9 @@ export default ({ handleChange, handleSubmit, name, email, comment }) => (
                 }
                 .list {
                     text-align: left;
+                }
+                .box.contact{
+                    margin-top: 15px;
                 }
             }
         `}</style>
